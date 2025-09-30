@@ -1,4 +1,4 @@
-timetable.html
+#timetable.html
 
 
 <html>
@@ -112,16 +112,15 @@ timetable.html
         
 
 
-views.py 
+#views.py 
 
 from django.shortcuts import render
 
-# Create your views here.
 def timetable(request):
     return render(request,'timetable.html')
 
 
-urls.py
+#urls.py
 
 
 
