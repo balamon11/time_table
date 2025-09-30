@@ -4,8 +4,8 @@ timetable.html
 <html>
 <head>
 
-</head>
-<body style='background-image:linear-gradient(90deg,pink,blue);'>
+    </head>
+    <body style='background-image:linear-gradient(90deg,pink,blue);'>
     <style>
         th{
             background-color:black;
@@ -27,8 +27,8 @@ timetable.html
     <br>
 
      
-<center>
-<table border="2" id="sta">
+    <center>
+    <table border="2" id="sta">
     <caption>Saveetha engineering college 
         TIME TABLE 
         Balaji T 25005672</caption>
@@ -79,11 +79,11 @@ timetable.html
         <td>CE</td>
         <td>FREE SLOT</td>
          </tr>
-</table>
-<br>
-<br>
-<br>
-<table border="3" id="abc">
+    </table>
+    <br>
+    <br>
+    <br>
+    <table border="3" id="abc">
     <tr>
         <th>S.No</th>
         <th>Subject Code</th>
@@ -92,24 +92,24 @@ timetable.html
     <tr>
         <td>1.</td>
     <td>19AI414</td>  
-<td >Fundamental of Web Application Development(FWAD)</td>  </tr>
-<tr>
+    <td >Fundamental of Web Application Development(FWAD)</td>  </tr>
+    <tr>
     <td>2.</td>
     <td>19AI304</td>
     <td>Python</td>
-</tr>
-<tr>
+    </tr>
+    <tr>
     <td>3.</td>
     <td>19EN101</td>
     <td>Communicative English(CE)</td>
-</tr>
-</table>
-</center>
+    </tr>
+    </table>
+    </center>
 
 
-</body>
-</html>
-
+    </body>
+    </html>
+        
 
 
 views.py 
@@ -128,19 +128,7 @@ urls.py
 """
 URL configuration for pro project.
 
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/5.2/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
+
 from django.contrib import admin
 from django.urls import path
 from app import views
