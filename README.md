@@ -114,28 +114,25 @@
 
 #views.py 
 
-from django.shortcuts import render
+        from django.shortcuts import render
 
-def timetable(request):
-    return render(request,'timetable.html')
+        def timetable(request):
+            return render(request,'timetable.html')
 
 
 #urls.py
 
 
 
-"""
-URL configuration for pro project.
 
+    from django.contrib import admin
+    from django.urls import path
+    from app import views
 
-from django.contrib import admin
-from django.urls import path
-from app import views
-
-urlpatterns = [
+    urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.timetable)
-]
+    ]
 
 
 
